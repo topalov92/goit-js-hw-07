@@ -17,7 +17,7 @@
 В папке [src](./src) ты найдешь стартовые файлы проекта с базовой разметкой и
 подключенными файлами скриптов для каждого задания.
 
-## Задание 1
+## Задание 1+
 
 В HTML есть список категорий `ul#categories`.
 
@@ -70,7 +70,7 @@
 - Категория: Животные
 - Количество элементов: 4
 
-## Задание 2
+## Задание 2+
 
 В HTML есть пустой список `ul#ingredients`.
 
@@ -82,12 +82,12 @@
 
 ```js
 const ingredients = [
-  'Картошка',
-  'Грибы',
-  'Чеснок',
-  'Помидоры',
-  'Зелень',
-  'Приправы',
+  "Картошка",
+  "Грибы",
+  "Чеснок",
+  "Помидоры",
+  "Зелень",
+  "Приправы",
 ];
 ```
 
@@ -95,7 +95,7 @@ const ingredients = [
 отдельный `li`, после чего вставит все `li` за одну операцию в список
 `ul.ingredients`. Для создания DOM-узлов используй `document.createElement()`.
 
-## Задание 3
+## Задание 3+
 
 Напиши скрипт для создания галлереи изображений по массиву данных.
 
@@ -115,21 +115,21 @@ const ingredients = [
 ```js
 const images = [
   {
-    url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'White and Black Long Fur Cat',
+    url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    alt: "White and Black Long Fur Cat",
   },
   {
-    url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
+    url: "https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    alt: "Orange and White Koi Fish Near Yellow Koi Fish",
   },
   {
-    url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'Group of Horses Running',
+    url: "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    alt: "Group of Horses Running",
   },
 ];
 ```
 
-## Задание 4
+## Задание 4+
 
 Счетчик состоит из спана и кнопок, которые должны увеличивать и уменьшать
 значение счетчика на `1`.
@@ -148,7 +148,7 @@ const images = [
 </div>
 ```
 
-## Задание 5
+## Задание 5+
 
 Напиши скрипт который, при наборе текста в инпуте `input#name-input` (событие
 input), подставляет его текущее значение в `span#name-output`. Если инпут
@@ -159,7 +159,7 @@ input), подставляет его текущее значение в `span#n
 <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
 ```
 
-## Задание 6
+## Задание 6+-
 
 Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое
 на правильное количество символов.
@@ -194,7 +194,7 @@ input), подставляет его текущее значение в `span#n
 }
 ```
 
-## Задание 7
+## Задание 7+-
 
 Напиши скрипт, который реагирует на изменение значения `input#font-size-control`
 (событие input) и изменяет инлайн-стиль `span#text` обновляя свойство
