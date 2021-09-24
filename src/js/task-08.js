@@ -35,5 +35,5 @@ const destroyBoxes = () => {
   refs.boxRef.innerHTML = "";
 };
 
-refs.newBtn.addEventListener("click", getAmount);
-refs.deleteBtn.addEventListener("click", destroyBoxes);
+elements.newBtn.addEventListener("click", getAmount);
+elements.deleteBtn.addEventListener("click", destroyBoxes);
