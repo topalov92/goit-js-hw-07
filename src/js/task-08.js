@@ -28,11 +28,11 @@ const randomColor = () => {
 };
 
 function getAmount() {
-  createBoxes(refs.input.value);
+  createBoxes(elements.input.value);
 }
 const destroyBoxes = () => {
   size = 30;
-  refs.boxRef.innerHTML = "";
+  elements.boxRef.innerHTML = "";
 };
 
 elements.newBtn.addEventListener("click", getAmount);
